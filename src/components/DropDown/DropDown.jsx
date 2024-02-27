@@ -1,17 +1,12 @@
-import React from 'react';
-import './Dropdown.css';
+import React from "react";
+import "./DropDown.css";
 
 const DropDown = ({ firstname, lastname }) => {
-
-
   return (
-    <div>
-      <label htmlFor="persons">Choose a person:</label>
-      <select></select>
-        <option value={firstname}>{firstname} {lastname}</option>
-    
-    </div>
+    <>
+      <option value={firstname}>{firstname} {lastname}</option>
+    </>
   );
 };
 
-export default Dropown;
+export default DropDown;

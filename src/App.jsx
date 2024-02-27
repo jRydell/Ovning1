@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>HEJ</h1>
+      <h1>Workers</h1>
       <PersonBox />
      
       
