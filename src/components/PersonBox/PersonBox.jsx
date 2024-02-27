@@ -18,6 +18,7 @@ const PersonBox = () => {
     <div className="person-box-container">
       <label htmlFor="persons">Choose a Worker:</label>
       <select onChange={handleSelectedPerson}>
+        <option value="">--Please choose an option--</option>
         {data.map((person, index) => (
           <DropDown
             key={index}
