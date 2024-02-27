@@ -1,11 +1,9 @@
 import React from "react";
 import "./DropDown.css";
 
-const DropDown = ({ firstname, lastname }) => {
+const DropDown = ({ value, firstname, lastname }) => {
   return (
-    <>
-      <option value={firstname}>{firstname} {lastname}</option>
-    </>
+    <option value={value}>{firstname} {lastname}</option>
   );
 };
 
